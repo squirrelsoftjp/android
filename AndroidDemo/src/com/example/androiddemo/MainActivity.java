@@ -2,6 +2,7 @@ package com.example.androiddemo;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.graphics.Color;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
@@ -14,6 +15,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         setVisible(false);
         setTheme(android.R.style.Theme_Black);
+        setTitleColor(Color.BLUE);
     }
 
     @Override
